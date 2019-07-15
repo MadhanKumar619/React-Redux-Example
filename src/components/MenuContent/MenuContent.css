@@ -1,0 +1,27 @@
+.menu-content ul{
+    margin-top : 100px;
+    list-style: none;
+    padding-left : 0px;                
+    width : 100%;        
+}
+.menu-content ul .fas{    
+    font-size: 1.3em;
+    position: absolute;
+    right : 10px;
+}
+.menu-content ul li{
+    margin-top : 20px;       
+    cursor: pointer;
+    padding :5% 15%;  
+    height : 20px;  
+}
+.menu-content ul li.active{
+    background : pink;    
+    font-weight: bold;    
+    border-left: 4px solid orangered;    
+}
+.menu-content .nav-menu-text{
+    position: absolute;
+    left : 10px;
+    text-transform: uppercase;
+}

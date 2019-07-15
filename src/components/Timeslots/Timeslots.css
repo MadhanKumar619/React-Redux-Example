@@ -1,0 +1,59 @@
+.holiday-time {
+    display: flex;
+}
+.time-slots{
+    margin-top : -15px;
+}
+.time-slots .time-head{
+    font-family: sans-serif;
+    font-weight : bold;
+}
+.holiday-time .fa-clock{
+    position: relative;    
+    right : 20px;
+    color : orchid;
+}
+.holiday-time span{
+    font-size: 1.2em;               
+}
+.holiday-time .time-picker input[type=text]{            
+    border : 2px solid #f2f2f2;
+    padding :3% 1.3%;
+    width  :120px;
+    height : 35px;    
+    font-size: 1.2em;        
+    margin-top: -20px;    
+}
+.holiday-time .rc-time-picker-input{
+    height: 50px!important;
+}
+.holiday-time .time-end{
+    margin-left: 10px;
+}
+.holiday-time .time-picker .rc-time-picker-clear{
+    display: none;    
+}
+.holiday-content-times .content-time{
+    margin-top : 10px;
+    border : 2px solid #f2f2f2;
+    padding: 1% 1%;    
+    width : 200px;
+    font-size: 1.2em;
+}
+.holiday-content-times .content-time .fa-times{
+    float: right;
+    margin-top : 2px;
+    color : orchid;
+}
+.holiday-time .add-btn{
+    padding : 0% 2%;
+    background: none;
+    border : 2px solid orchid;
+    color : orchid;
+    font-weight: bold;
+    margin-left : 30px;
+    outline: none;
+}
+.time-slots .time-error{
+    color: red;
+}

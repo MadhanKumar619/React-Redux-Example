@@ -1,0 +1,61 @@
+.capacity .capacity-head span{
+    font-weight: bold;     
+    font-family: sans-serif; 
+}
+.capacity .capacity-key{        
+    padding: 0.5%;    
+    text-transform: uppercase;
+    text-align: right;
+    color: red;
+    font-size: 0.9em;
+}
+.capacity table{
+    width : auto;
+}
+.capacity table thead th,
+.capacity table tbody td
+{
+    box-shadow: 0px 1px 2px 0px #f2f2f2;
+    padding: 2%;
+}
+.capacity thead tr th{    
+    width : 155px;    
+    text-transform: uppercase;
+}
+.capacity tbody tr td{    
+    text-align: center;
+}
+.capacity .fa-info-circle{
+    color: palevioletred;
+}
+.capacity .fa-info-circle[title]:hover:after{
+    content : attr(title);
+    position: absolute;
+    transition: 0.3s;
+    background: orchid;
+    color : white;
+    border-radius: 7px;
+    padding: 0.5%;  
+    margin-top : -7px;
+    margin-left : 4px;
+}
+.capacity tbody input{
+    border : none;
+    text-align: center;
+    border-bottom: 1px solid #D3D3D3;
+    width : 60%;    
+}
+.capacity tbody input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;    
+}
+.capacity tbody input:focus{
+    outline: none;
+}
+.capacity .save-btn{
+    cursor: pointer;
+    padding :1% 5%;    
+    margin :2% 4%;
+    background : grey;
+    color : white;
+    outline: none;    
+}

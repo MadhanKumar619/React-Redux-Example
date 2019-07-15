@@ -1,0 +1,24 @@
+/* App Nav */
+.app .nav{
+    text-align: center;
+    padding : 20px;
+    background : white;
+}
+.app .nav .nav-text{
+    font-size: 1.3em;
+}
+.app .nav select{    
+    background: white;
+    border : 2px solid #f2f2f2;    
+    width : 150px;
+    height: 35px;
+    margin-left: 1%;    
+}
+.app .nav select:focus{
+    outline: none;
+}
+/* End Of App Nav */
+.app{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top : -10px;
+}
